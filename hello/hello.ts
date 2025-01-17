@@ -1,6 +1,7 @@
 import { api } from "encore.dev/api";
 import log from "encore.dev/log";
-import { getAuthData } from "~encore/internal/auth/auth";
+import { getAuthData } from "~encore/auth";
+
 interface Response {
 	message: string;
 }
